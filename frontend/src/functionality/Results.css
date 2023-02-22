@@ -1,0 +1,55 @@
+.containerall{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    height: calc(100vh - 90px);
+}
+.card{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background: #212121;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+}
+.link{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    top: 100px;
+    left: 0;
+}
+h1{
+    color: white;
+}
+h6{
+    color: blanchedalmond;
+    font-size: 20px;
+    margin-top: 0;
+}
+.cardcontainer{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 115px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 0.5fr 0.5fr auto;
+    row-gap: 50px;
+    padding: 0;
+}
+.textcontainer{ 
+    right: 25px;
+    text-align: left;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}

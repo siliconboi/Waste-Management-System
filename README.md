@@ -1,4 +1,3 @@
-# ecell_nitb_hack2k23__404_NoobFound
 
 The Problem statement
 

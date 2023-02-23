@@ -25,33 +25,17 @@ const changeRoute = ()=>{
             </div>
           </div>
         </div>
-        <div className="sell-us-your-container">
-          <span className="sell">{`Sell `}</span>
-          <span className="us-your-recyclable">
-            us your recyclable wastes and help contribute to the circular
-            economy.
-          </span>
-        </div>
         <div className="got-scrapsell-it-to-us-wrapper">
           <div className="got-scrapsell-it-to-us">
             <div className="have-garbage-make-container">
               <p className="have-garbage">
-                <span className="sell">
-                  <span>have garbage?</span>
-                </span>
+                  <span>Have garbage?</span>
               </p>
               <p className="make-bharat-sustainable">
-                <span className="sell">
                   <span>Make Bharat sustainable.</span>
-                </span>
               </p>
               <p className="sell-it-to-us">
-                <span className="sell">
-                  <span>{`Sell `}</span>
-                </span>
-                <span>
-                  <span className="us-your-recyclable">it to us.</span>
-                </span>
+                  <span>{`Sell it to us.`}</span>
               </p>
             </div>
           </div>
@@ -68,7 +52,7 @@ const changeRoute = ()=>{
           <b className="sustainability-circular">{`Sustainability & Circular Economy`}</b>
           <div className="zero-with-its-container">
             <span className="sell">
-              <span>zero</span>
+              ZERO
             </span>
             <span>
               <span className="sell">{` `}</span>
@@ -80,9 +64,6 @@ const changeRoute = ()=>{
               <span className="circular-economy">sustainability</span>
               <span className="while-infusing"> into lives.</span>
             </span>
-          </div>
-          <div className="button">
-            <div className="learn-more">learn more</div>
           </div>
         </div>
         <img className="img-icon" alt="" src="img.png" />
@@ -270,53 +251,8 @@ const changeRoute = ()=>{
             <span> with ease.</span>
           </div>
         </div>
-        <div className="card">
-          <img className="card-child" alt="" src="../rectangle-10@2x.png" />
-          <div className="frame-parent">
-            <div className="request-management-wrapper">
-              <b className="request-management">Request Management</b>
-            </div>
-            <div className="want-to-clear-your-household-w-wrapper">
-              <div className="want-to-clear-container">
-                <span className="sell">{`Want `}</span>
-                <span className="us-your-recyclable">
-                  to clear your household wastes
-                </span>
-                <span className="sell">{`? We `}</span>
-                <span className="us-your-recyclable">
-                  are here for you, 24*7
-                </span>
-                <span className="sell">.</span>
-              </div>
-            </div>
-            <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded.svg"
-              />
-              <div className="request">request</div>
-            </div>
-            <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded.svg"
-              />
-              <div className="request">book</div>
-            </div>
-            <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded.svg"
-              />
-              <div className="request">get paid</div>
-            </div>
-          </div>
-        </div>
         <div className="card1">
-          <img className="card-item" alt="" src="../rectangle-11@2x.png" />
+          <img className="card-item" alt="" src="Rectangle11.png" />
           <div className="frame-parent">
             <div className="credit-system-for-waste-reduct-wrapper">
               <b className="request-management">
@@ -340,22 +276,12 @@ const changeRoute = ()=>{
               </div>
             </div>
             <div className="frame-div">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded3.svg"
-              />
               <div className="want-to-clear-container">
                 <span className="sell">{`We `}</span>
                 <span className="us-your-recyclable">Pay them.</span>
               </div>
             </div>
             <div className="frame-div">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded3.svg"
-              />
               <div className="they-get-zero-container">
                 <span className="they-get">
                   <span className="sell">{`They `}</span>
@@ -367,7 +293,7 @@ const changeRoute = ()=>{
           </div>
         </div>
         <div className="card2">
-          <img className="card-inner" alt="" src="../rectangle-101@2x.png" />
+          <img className="card-inner" alt="" src="Rectangle10.png" />
           <div className="frame-parent">
             <div className="waste-segregation-wrapper">
               <b className="request-management"> Waste Segregation</b>
@@ -383,35 +309,15 @@ const changeRoute = ()=>{
               </div>
             </div>
             <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded3.svg"
-              />
               <div className="request">Recyclable</div>
             </div>
             <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded3.svg"
-              />
               <div className="request">Compostible</div>
             </div>
             <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded3.svg"
-              />
               <div className="request">Hazardous</div>
             </div>
             <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded3.svg"
-              />
               <div className="request">kitchen waste</div>
             </div>
           </div>
@@ -420,7 +326,7 @@ const changeRoute = ()=>{
           <img
             className="rectangle-icon"
             alt=""
-            src="../rectangle-111@2x.png"
+            src="Rectangle11 (1).png"
           />
           <div className="frame-parent">
             <div className="waste-segregation-wrapper">
@@ -435,11 +341,6 @@ const changeRoute = ()=>{
               </div>
             </div>
             <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded3.svg"
-              />
               <div className="they-get-zero-container">
                 <span className="sell">
                   <span>{`Our `}</span>
@@ -453,11 +354,7 @@ const changeRoute = ()=>{
               </div>
             </div>
             <div className="material-symbolssend-rounded-parent">
-              <img
-                className="material-symbolssend-rounded-icon"
-                alt=""
-                src="../materialsymbolssendrounded3.svg"
-              />
+              
               <div className="want-to-clear-container">
                 <span className="sell">{`Our `}</span>
                 <span className="us-your-recyclable">
@@ -483,7 +380,7 @@ const changeRoute = ()=>{
               <img
                 className="tetra-pak-initiative-1-icon"
                 alt=""
-                src="../tetrapakinitiative-1@2x.png"
+                src="tetra-pak-initiative1.png"
               />
             </div>
             <div className="text2">
@@ -493,7 +390,7 @@ const changeRoute = ()=>{
               <div className="zero-collaborated-with-tetra-p-wrapper">
                 <div className="zero-collaborated-with-container">
                   <span className="sell">
-                    <span>ZERO</span>
+                    ZERO
                   </span>
                   <span className="collaborated-with-tetra-pak-in">
                     <span className="sell">{` `}</span>
@@ -516,11 +413,6 @@ const changeRoute = ()=>{
             </div>
             <div className="learn-more-parent">
               <div className="learn-more1">learn more</div>
-              <img
-                className="material-symbolsarrow-forward-icon1"
-                alt=""
-                src="../materialsymbolsarrowforwardiosrounded1.svg"
-              />
             </div>
           </div>
           <div className="card5">
@@ -528,7 +420,7 @@ const changeRoute = ()=>{
               <img
                 className="mattress-circular-economy-1-icon"
                 alt=""
-                src="../mattresscirculareconomy-1@2x.png"
+                src="mattress-circular-economy1.png"
               />
             </div>
             <div className="text3">
@@ -544,7 +436,7 @@ const changeRoute = ()=>{
                     <span className="us-your-recyclable">{`and `}</span>
                   </span>
                   <span className="bhopal-municipal-corporation">
-                    <span>ZERO</span>
+                    ZERO
                   </span>
                   <span>
                     <span className="bhopal-municipal-corporation">{` `}</span>
@@ -563,11 +455,6 @@ const changeRoute = ()=>{
             </div>
             <div className="learn-more-parent">
               <div className="learn-more1">learn more</div>
-              <img
-                className="material-symbolsarrow-forward-icon1"
-                alt=""
-                src="../materialsymbolsarrowforwardiosrounded2.svg"
-              />
             </div>
           </div>
           <div className="card6">
@@ -575,7 +462,7 @@ const changeRoute = ()=>{
               <img
                 className="tree-plantation-initiative-1-icon"
                 alt=""
-                src="../treeplantationinitiative-1@2x.png"
+                src="tree-plantation-initiative1.png"
               />
             </div>
             <div className="text2">
@@ -613,11 +500,6 @@ const changeRoute = ()=>{
             </div>
             <div className="learn-more-parent">
               <div className="learn-more1">learn more</div>
-              <img
-                className="material-symbolsarrow-forward-icon1"
-                alt=""
-                src="../materialsymbolsarrowforwardiosrounded3.svg"
-              />
             </div>
           </div>
           <div className="card7">
@@ -639,7 +521,7 @@ const changeRoute = ()=>{
                     <span className="us-your-recyclable">{` initiative is a combined effort of `}</span>
                   </span>
                   <span className="bhopal-municipal-corporation">
-                    <span>ZERO</span>
+                    ZERO
                   </span>
                   <span>
                     <span className="bhopal-municipal-corporation">{` & Bhopal Municipal Corporation `}</span>
@@ -654,7 +536,6 @@ const changeRoute = ()=>{
             </div>
             <div className="learn-more-parent">
               <div className="learn-more1">learn more</div>
-              <img className="material-symbolsarrow-forward-icon1" alt="" />
             </div>
           </div>
           <div className="card8">
@@ -679,7 +560,7 @@ const changeRoute = ()=>{
                     <span className="bhopal-municipal-corporation">{`, The `}</span>
                   </span>
                   <span className="bhopal-municipal-corporation">
-                    <span>ZERO</span>
+                    ZERO
                   </span>
                   <span>
                     <span className="us-your-recyclable">
@@ -698,33 +579,21 @@ const changeRoute = ()=>{
             </div>
             <div className="learn-more-parent">
               <div className="learn-more1">learn more</div>
-              <img className="material-symbolsarrow-forward-icon1" alt="" />
             </div>
           </div>
         </div>
-        <img className="section6-item" alt="" src="../ellipse-13.svg" />
-        <img
-          className="section6-inner"
-          alt=""
-          src="../ellipse-14.svg"
-        />
       </div>
       <div className="section7">
         <div className="section7-child" />
-        <img className="section7-item" alt="" src="../rectangle-22@2x.png" />
+        <img className="section7-item" alt="" src="Rectangle 2.png" />
         <div className="text7">
           <b className="trusted-by-500-container">
             <span className="trusted-by">{`Trusted by `}</span>
             <span className="span12">500+</span>
             <span className="trusted-by"> global partners</span>
           </b>
-          <div className="the-zero-is-container">
-            <span className="sell">The zERO</span>
-            <span className="us-your-recyclable">
-              {" "}
-              is an official waste management partner with the world’s greatest
+          <div className="the-zero-is-container">The ZERO is an official waste management partner with the world’s greatest
               organization.
-            </span>
           </div>
         </div>
         <div className="sponsers">

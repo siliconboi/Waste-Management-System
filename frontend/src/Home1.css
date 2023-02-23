@@ -155,9 +155,13 @@
   }
   .sell {
     text-transform: capitalize;
+    font-size: 16px;
+    color: white;
   }
   .us-your-recyclable {
     text-transform: lowercase;
+    font-size: 16px;
+    color: white;
   }
   .sell-us-your-container {
     position: absolute;
@@ -175,12 +179,14 @@
     margin-block-end: 0;
   }
   .make-bharat-sustainable {
-    font-size: var(--font-size-2xl);
+    font-size: 42px;
   }
   .sell-it-to-us {
     margin: 0;
   }
   .have-garbage-make-container {
+    padding-top: 40px;
+    font-size: 42px;
     position: absolute;
     height: 200%;
     width: 100%;
@@ -204,7 +210,7 @@
     position: absolute;
     top: 186px;
     left: 256px;
-    border-radius: var(--br-sm);
+    border-radius: 5px;
     background: linear-gradient(180deg, #20262e, #2d3135);
     box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
       6px 6px 12px rgba(0, 0, 0, 0.25);
@@ -439,7 +445,7 @@
     position: absolute;
     top: 471px;
     left: 322px;
-    border-radius: var(--br-xs);
+    border-radius: 5px;
     background: linear-gradient(110.9deg, #20262e, #2d3135);
     box-shadow: -3px -3px 6px #fff, 3px 3px 6px rgba(0, 0, 0, 0.25);
     overflow: hidden;
@@ -690,6 +696,7 @@
     top: 0;
     left: 138px;
     line-height: 126.5%;
+    font-size: xx-large;
     text-transform: capitalize;
     background: linear-gradient(180deg, #20262e, #2d3135);
     -webkit-background-clip: text;
@@ -701,11 +708,12 @@
   .attaining-sustainable-solution-container {
     position: absolute;
     top: 93px;
-    left: 0;
-    font-size: large;
+    left: 110px;
+    font-size: x-large;
     text-transform: capitalize;
     font-weight: 500;
     text-align: center;
+    color: whitesmoke;
   }
   .our-services-parent {
     position: absolute;
@@ -724,9 +732,11 @@
     object-fit: cover;
   }
   .request-management {
+    color: darkorange;
     flex: 1;
     position: relative;
     line-height: 32px;
+    margin-bottom: 20px;
     text-transform: capitalize;
   }
   .request-management-wrapper {
@@ -738,7 +748,7 @@
     align-items: center;
     justify-content: center;
     font-size: var(--font-size-sm);
-    color: var(--color-gray-300);
+    color: gray.300;
   }
   .want-to-clear-container {
     flex: 1;
@@ -750,7 +760,7 @@
     width: 398px;
     display: flex;
     flex-direction: row;
-    padding: var(--padding-xs) var(--padding-lg);
+    padding: x-small large;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -769,6 +779,8 @@
     line-height: 126.5%;
     text-transform: capitalize;
     font-weight: 500;
+    color: wheat;
+    font-size: 16px;
   }
   .card,
   .frame-parent,
@@ -780,7 +792,7 @@
   .material-symbolssend-rounded-parent {
     width: 313px;
     flex-direction: row;
-    padding: var(--padding-xs) var(--padding-lg);
+    padding: x-small large;
     box-sizing: border-box;
     gap: var(--gap-md);
   }
@@ -792,7 +804,7 @@
     position: absolute;
     top: 291px;
     left: 127px;
-    border-radius: var(--br-sm);
+    border-radius: 5px;
     background-color: var(--color-secondary-head);
     box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.8),
       4px 4px 8px rgba(0, 0, 0, 0.25);
@@ -814,22 +826,23 @@
     width: 326px;
     display: flex;
     flex-direction: row;
-    padding: var(--padding-xs) var(--padding-sm);
+    padding: 0;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+    font-size: large;
     color: var(--color-black);
   }
   .span4 {
     text-transform: capitalize;
-    font-size: var(--font-size-2xs);
+    font-size: xx-small;
   }
   .each-time-our-customers-let-us-wrapper,
   .frame-div {
     width: 398px;
     display: flex;
     flex-direction: row;
-    padding: var(--padding-xs) var(--padding-lg);
+    padding: x-small large;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -839,7 +852,7 @@
     align-items: flex-start;
     justify-content: flex-start;
     gap: var(--gap-md);
-    font-size: var(--font-size-2xs);
+    font-size: xx-small;
   }
   .they-get {
     font-weight: 500;
@@ -847,7 +860,8 @@
   .zero-coins {
     text-transform: capitalize;
     font-weight: 600;
-    color: var(--color-primary-head);
+    color: wheat;
+    font-size: 16px;
   }
   .they-get-zero-container {
     flex: 1;
@@ -858,7 +872,7 @@
     position: absolute;
     top: 292px;
     left: 779px;
-    border-radius: var(--br-sm);
+    border-radius: 5px;
     background-color: var(--color-secondary-head);
     box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.8),
       4px 4px 8px rgba(0, 0, 0, 0.25);
@@ -890,14 +904,14 @@
     width: 326px;
     padding: var(--padding-xs) var(--padding-sm);
     justify-content: center;
-    font-size: var(--font-size-sm);
+    font-size: large;
     color: var(--color-black);
   }
   .card2 {
     position: absolute;
     top: 649px;
     left: 127px;
-    border-radius: var(--br-sm);
+    border-radius: 5px;
     background-color: var(--color-secondary-head);
     box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.8),
       4px 4px 8px rgba(0, 0, 0, 0.25);
@@ -927,7 +941,7 @@
     position: absolute;
     top: 649px;
     left: 779px;
-    border-radius: var(--br-sm);
+    border-radius: 5px;
     background-color: var(--color-secondary-head);
     box-shadow: -4px -4px 8px rgba(255, 255, 255, 0.8),
       4px 4px 8px rgba(0, 0, 0, 0.25);
@@ -950,18 +964,18 @@
     top: 4510px;
     height: 1054px;
     overflow: hidden;
-    font-size: var(--font-size-2xs);
-    color: var(--grayscale-dark-grey);
+    font-size: xx-small;
+    color: darkgray;
   }
   .section6-child {
     top: -1px;
-    background-color: var(--color-primary-light);
+    background-color: #212121;
     height: 959px;
   }
   .our-initiatives {
     position: absolute;
     top: 0;
-    left: 60px;
+    left: 200px;
     line-height: 126.5%;
     text-transform: capitalize;
     background: linear-gradient(147.13deg, #d5ff90, #78904e);
@@ -979,14 +993,14 @@
     position: absolute;
     top: 3px;
     left: 1.5px;
-    border-radius: var(--br-xs);
+    border-radius: 5px;
     width: 280px;
     height: 169px;
     object-fit: cover;
   }
   .img {
     position: relative;
-    border-radius: var(--br-xs);
+    border-radius: 5px;
     width: 282px;
     height: 174px;
     flex-shrink: 0;
@@ -994,18 +1008,19 @@
   }
   .tetra-pak-initiative-wrapper {
     position: absolute;
-    top: 0;
+    top: -15px;
     left: 0;
     width: 339.5px;
     display: flex;
     flex-direction: row;
-    padding: var(--padding-xs) var(--padding-lg);
+    padding: x-small large;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
   }
   .collaborated-with-tetra-pak-in {
-    color: var(--color-gray-400);
+    color: gray.400;
+    font-size: 16px;
   }
   .zero-collaborated-with-container {
     flex: 1;
@@ -1019,16 +1034,16 @@
     width: 339.5px;
     display: flex;
     flex-direction: row;
-    padding: var(--padding-xs) var(--padding-lg);
+    padding: x-small large;
     box-sizing: border-box;
     align-items: center;
     justify-content: flex-start;
     text-align: left;
-    font-size: var(--font-size-4xs);
-    color: var(--color-darkorange);
+    font-size: 16px;
   }
   .text2 {
     position: relative;
+    margin-top: 30px;
     width: 339.5px;
     height: 196px;
     flex-shrink: 0;
@@ -1065,8 +1080,8 @@
     position: absolute;
     top: 12px;
     left: 16px;
-    border-radius: var(--br-sm);
-    background-color: var(--color-primary-light);
+    border-radius: 5px;
+    background-color: #212121;
     box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
       6px 6px 12px rgba(0, 0, 0, 0.25);
     width: 340px;
@@ -1080,12 +1095,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: var(--br-xs);
+    border-radius: 5px;
     width: 275.85px;
     height: 167px;
     object-fit: cover;
   }
   .mattress-circular-journey {
+    color: darkorange;
     position: relative;
     line-height: 32px;
     text-transform: capitalize;
@@ -1096,12 +1112,12 @@
   .ispf-ipua-and-zero-came-toget-wrapper,
   .mattress-circular-journey-wrapper {
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 0.75px;
     width: 335px;
     display: flex;
     flex-direction: row;
-    padding: var(--padding-xs) var(--padding-lg);
+    padding: x-small large;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
@@ -1112,21 +1128,22 @@
     width: 338px;
     justify-content: flex-start;
     text-align: left;
-    font-size: var(--font-size-4xs);
-    color: var(--color-gray-400);
+    font-size: small;
+    color: gray.400;
   }
   .text3 {
     position: relative;
     width: 338px;
     height: 220px;
+    margin-top: 30px;
     flex-shrink: 0;
   }
   .card5 {
     position: absolute;
     top: 12px;
     left: 412px;
-    border-radius: var(--br-sm);
-    background-color: var(--color-primary-light);
+    border-radius: 5px;
+    background-color: #212121;
     box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
       6px 6px 12px rgba(0, 0, 0, 0.25);
     width: 340px;
@@ -1149,6 +1166,8 @@
     object-fit: cover;
   }
   .tree-plantation-initiative {
+    top:-10px;
+    color: darkorange;
     position: relative;
     line-height: 32px;
     text-transform: capitalize;
@@ -1168,17 +1187,17 @@
     left: 0;
     width: 339.5px;
     flex-direction: row;
-    padding: var(--padding-xs) var(--padding-lg);
+    padding: x-small large;
     justify-content: flex-start;
     text-align: left;
-    font-size: var(--font-size-4xs);
-    color: var(--color-gray-400);
+    font-size: small;
+    color: gray.400;
   }
   .card6 {
     top: 12px;
     left: 808px;
-    border-radius: var(--br-sm);
-    background-color: var(--color-primary-light);
+    border-radius: 5px;
+    background-color: #212121;
     box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
       6px 6px 12px rgba(0, 0, 0, 0.25);
     width: 340px;
@@ -1191,21 +1210,23 @@
   }
   .bhopal-municipal-corporation {
     text-transform: capitalize;
-    color: var(--color-darkorange);
+    color: white;
+    font-size: 16px;
   }
   .text5 {
     position: relative;
     width: 339.5px;
     height: 220px;
     flex-shrink: 0;
+    margin-top: 30px;
   }
   .card7,
   .card8 {
     position: absolute;
     top: 12px;
     left: 1204px;
-    border-radius: var(--br-sm);
-    background-color: var(--color-primary-light);
+    border-radius: 5px;
+    background-color: #212121;
     box-shadow: -6px -6px 12px rgba(255, 255, 255, 0.5),
       6px 6px 12px rgba(0, 0, 0, 0.25);
     width: 340px;
@@ -1230,7 +1251,7 @@
     height: 553px;
     text-align: center;
     font-size: var(--font1-size);
-    color: var(--color-gray-300);
+    color: gray.300;
   }
   .section6-inner,
   .section6-item {
@@ -1253,7 +1274,7 @@
     left: 0;
     width: 100%;
     height: 958px;
-    font-size: var(--font-size-2xl);
+    font-size: xx-large;
     color: gray.500;
   }
   .section7-child,
@@ -1270,18 +1291,23 @@
   .section7-item {
     object-fit: cover;
   }
-  .span12,
   .trusted-by {
+    font-size: 26px;
+    background: -webkit-linear-gradient(180deg, #20262e, #2d3135);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-  .trusted-by {
-    background: linear-gradient(180deg, #20262e, #2d3135);
+  
   }
   .span12 {
-    background: linear-gradient(147.13deg, #ffa65b, #fc7300);
+    font-size: 26px;
+    background: -webkit-linear-gradient(147.13deg, #ffa65b, #fc7300);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
   }
   .trusted-by-500-container {
+
+    font-size: 24px;
     position: absolute;
     top: 0;
     left: 0;
@@ -1294,13 +1320,15 @@
     position: absolute;
     top: 197px;
     left: 0;
-    font-size: var(--font-size-base);
-    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    font-weight: 700;
     display: inline-block;
     width: 602px;
   }
   .group-child,
   .text7 {
+    color: black;
     position: absolute;
     top: 210px;
     left: 785px;
@@ -1310,7 +1338,7 @@
   .group-child {
     top: 0;
     left: 0;
-    border-radius: var(--br-xs);
+    border-radius: 5px;
     background: linear-gradient(180deg, #fff, #f8f6f6);
     box-shadow: -4px -4px 8px #fff, 4px 4px 8px rgba(0, 0, 0, 0.25);
     width: 152px;
@@ -1473,7 +1501,7 @@
     height: 742px;
     overflow: hidden;
     font-size: var(--font-size-3xl);
-    color: var(--grayscale-dark-grey);
+    color: darkgray;
   }
   .section8-child,
   .section8-item {
@@ -1547,7 +1575,7 @@
     position: absolute;
     top: 512px;
     left: 125px;
-    border-radius: var(--br-sm);
+    border-radius: 5px;
     background-color: var(--color-darkslategray-200);
     box-shadow: 0 6px 20px #ff0909;
     border: 3px solid var(--color-black);
@@ -2013,7 +2041,7 @@ color: #FFA65B;
     background: linear-gradient(136.34deg, #ffa65b, #fc7300);
     width: 120px;
     padding: var(--padding-sm);
-    color: var(--color-gray-400);
+    color: gray.400;
   }
   .button2 {
     left: 1079px;

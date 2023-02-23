@@ -20,7 +20,7 @@ item: item,
 location:location,
 date: date
     }
-    const res = await fetch(`https://waste-management-app-fzkv.onrender.com/api/post`, {
+    const res = await fetch(`http://localhost:8080/api/post`, {
         method: 'POST',
         body: JSON.stringify(data),
         headers:{
@@ -35,7 +35,7 @@ date: date
     let credit;
 
     async function requestCredits(){
-        credit = await fetch('https://waste-management-app-fzkv.onrender.com/api/credits',{
+        credit = await fetch('http://localhost:8080/api/credits',{
           method:"GET",
           headers:{
           "authentication": sessionStorage.getItem("jwt")

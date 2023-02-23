@@ -6,7 +6,7 @@ const Store = ()=>{
     requestCredits();
     },[])
     async function requestCredits(){
-        const credit = await fetch('http://localhost:8080/api/credits',{
+        const credit = await fetch('https://waste-management-app-fzkv.onrender.com/api/credits',{
           method:"GET",
           headers:{
           "authentication": sessionStorage.getItem("jwt")

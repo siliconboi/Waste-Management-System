@@ -59,7 +59,7 @@ const changeRoute = ()=>{
 
 
   const handleSubmit = async () => {
-    const res = await fetch(`http://localhost:8080/api/check`, {
+    const res = await fetch(`https://waste-management-app-fzkv.onrender.com/api/check`, {
       method: "POST",
       body:JSON.stringify({
         image:imageUrl

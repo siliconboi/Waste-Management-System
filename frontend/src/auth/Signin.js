@@ -23,7 +23,7 @@ export default function Signin({setToken}) {
         name: name,
         password: password
         }
-            const res = await fetch("http://localhost:8080/user/api/signin", {
+            const res = await fetch("https://waste-management-app-fzkv.onrender.com/user/api/signin", {
                 method:"POST",
                 body: JSON.stringify(data),
                 headers: {

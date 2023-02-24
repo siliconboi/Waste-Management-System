@@ -18,13 +18,16 @@ const userSchema = new mongoose.Schema({
         type: String
     },
     recycled:{
-        type: Number
+        type: Number,
+        default:0
     },
     compostable:{
-        type: Number
+        type: Number,
+        default:0
     },
     hazardous:{
-        type: Number
+        type: Number,
+        default:0
     }
 })
 const garbageSchema = new mongoose.Schema({

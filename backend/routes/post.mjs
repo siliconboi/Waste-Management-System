@@ -38,9 +38,9 @@ const __dirname = path.dirname(__filename);
   const preprocessedImage = await preprocessImage(imageUrl);
 
   const predictions = model.predict(preprocessedImage);
-  console.log(predictions)
-
+  
   const classIndex = predictions.argMax(-1).dataSync()[0];
+  console.log(predictions.argMax(-1))
 
   let classLabels =["Paper and Cardboard", "Aluminium", "Plastic", "Organic Waste", "Other Plastics", "Textiles" ]
   const predictedClass = classLabels[classIndex];
@@ -102,22 +102,22 @@ else if(garbagetype==="Aluminium"){
 {
   name: "Copper",
   price: 350,
-  type: "metal"
+  type: "metals"
 },
 {
   name: "Brass",
   price: 250,
-  type: "metal"
+  type: "metals"
 },
 {
   name: "Aluminium",
   price: 60,
-  type: "metal"
+  type: "metals"
 },
 {
   name: "Steel",
   price: 30,
-  type: "metal"
+  type: "metals"
 },
 ];
 }
@@ -206,8 +206,13 @@ PostRouter.post('/post',validToken, async (req,res)=>{
      catch(e){
        console.log(e)
      }
-      const garbage = await Garbage.create({user:req.user._id},{[item.type]: true, location: location});
-      await User.findByIdAndUpdate({_id:req.user._id},{$inc:{recycled:(garbage.paper||garbage.plastic?1:0)}});
+     const garbage = await Garbage.create({user:req.user._id,[item.type]: true, location: location});
+     if(garbage.paper||garbage.plastic||garbage.organic)
+{     User.findByIdAndUpdate(req.user._id,{$inc:{recycled: 1}},function(err,document){
+  console.log(err)
+  console.log(document)
+});
+}     
        const accountSid = process.env.TWILIO_ACCOUNT_SID;
        const authToken = process.env.TWILIO_AUTH_TOKEN;
        const client = twilio(accountSid, authToken);
